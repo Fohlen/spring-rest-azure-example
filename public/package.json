@@ -1,0 +1,29 @@
+{
+  "name": "spring-rest-azure-example",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "A code sample on spring, rest and Azure",
+  "scripts": {
+    "start": "browser-sync start --server --files '*'",
+    "postistall": "yarn install"
+  },
+  "keywords": [
+    "spring",
+    "java",
+    "rest"
+  ],
+  "author": "Lennard Berger",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "yarn": "^0.24.5"
+  },
+  "private": "true",
+  "engines": {
+    "node": ">=6.10.3"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "jquery": "^3.2.1",
+    "tether": "^1.4.0"
+  }
+}
